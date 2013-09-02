@@ -50,6 +50,11 @@ My pack includes these subjects:
 
     [7] Information Technology Law
 
+Disclaimer
+----------
+
+This pack is only for learning intention.
+
 P.S.
 -----
 Content can be out of date. Please update and make a pull request.

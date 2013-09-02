@@ -1,0 +1,23 @@
+>Cluster 0
+0	1584aa, >gi|40804474|emb|A... *
+>Cluster 1
+0	1449aa, >gi|396937447|emb|... *
+>Cluster 2
+0	18aa, >gi|396937447|emb|... at 100%
+1	1449aa, >gi|396937453|emb|... *
+2	18aa, >gi|396937453|emb|... at 100%
+>Cluster 3
+0	21aa, >gi|40804474|emb|A... at 100%
+1	1442aa, >gi|396937439|emb|... *
+2	21aa, >gi|396937439|emb|... at 100%
+3	21aa, >gi|396937447|emb|... at 100%
+4	21aa, >gi|396937453|emb|... at 100%
+>Cluster 4
+0	15aa, >gi|40804474|emb|A... *
+>Cluster 5
+0	13aa, >gi|40804474|emb|A... *
+1	13aa, >gi|396937439|emb|... at 100%
+2	13aa, >gi|396937447|emb|... at 100%
+3	13aa, >gi|396937453|emb|... at 100%
+>Cluster 6
+0	12aa, >gi|40804474|emb|A... *

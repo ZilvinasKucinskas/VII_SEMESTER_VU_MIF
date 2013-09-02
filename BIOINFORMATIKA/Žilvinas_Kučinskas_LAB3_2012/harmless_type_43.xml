@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.27+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>59043</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>1596</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>59043</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>1596</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|40804474|emb|AJ620205.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 43 complete genome</Hit_def>
+  <Hit_accession>AJ620205</Hit_accession>
+  <Hit_len>7975</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>675.746</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>1591</Hsp_query-to>
+      <Hsp_hit-from>5680</Hsp_hit-from>
+      <Hsp_hit-to>7263</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1128</Hsp_identity>
+      <Hsp_positive>1128</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>1614</Hsp_align-len>
+      <Hsp_qseq>TGACTTTTATTTACATCCTAG-TTATTACATGTTACGAAAACGACGTAAACGTTTACCATATTTTTTTTCAGATGTCTCTTTGGCTGCCTAGTGAGGCCACTGTCTACTTGCCTCCT----GTCCCA--GTATCTAAGGTTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAAACCTAACAATAACAAAATATTAGTTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAAT--GCAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCA---GTAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTA-CTGCAAATTTAGCCAGTTCAAAT-TATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTG---CTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGTCT---ACAACCTCCCCCAGGAGGCACACTAGAAGATACTTATAGGTTTGT---AACCCAGGCAATTGCTTGTCAAAAACATACACCTCCAGCACCTAAAGAA---GATGATCCCCTTAAAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTTACTACAAGCAGGATTGAAGGCCAAACCAAAATTTACATTAGGAAAACGAAAAGCTACACCCACCA-CCTCATCTACCTCTACAACTG---CTAAACGCAAAAAACGTAAGC</Hsp_qseq>
+      <Hsp_hseq>TGATTTTTATTTGCATCCTTCATTGTGGCAT-TTGGGCAAACGCCGTAAACGCTTTTCATATTTTTTTACAGATAACTATGTGGCGGCTTAATGACAACAAGGTTTACCTGCCTCCTCCAGGGCCTATAGCATCTA---TTGTGAGCACAGATGAATATGTGCAACGCACCAACTTATTTTATTATGCTGGCAGTTCACGTTTGCTTGCAGTGGGTCACCCATATTTCCCCCTTAAAAATTC---CTCTGGTAAAATAACTGTACCTAAGGTTTCTGGTTATCAATACAGAGTATTTAGAGTTAAATTGCCTGACCCTAATAAATTTGGCTTTTCAGAAACAACACTGGTTACATCAGACACTCAGCGTTTAGTCTGGGGATGCGTAGGAGTTGAAATTGGTAGAGGACAACCTTTAGGTGTTGGAATAAGTGGCCATCCGTATTTAAATAAGTATGATGACACTGAAAACCCGTCTGGGTATG--GCACATCGCCGGGACAAGATAACAGAGAAAATGTAGCAATGGATTATAAACAAACACAGCTGTGTATTGTTGGCTGTACACCTCCTATGGGTGAATATTGGGGTCAGGGTGTGCCTTG---CAACGCATCAGGTGTTACCCAAGGTGATTGTCCTGTAATAGAATTAAAAAGTGAAGTTATACAGGATGGTGACATGGTAGATACAGGATTTGGTGCAATGGATTTTGCTTCCCTACAGGCCAGTAAAAGTGATGTACCCTTAGACCTGGTTAATACTAAAAGTAAATATCCTGATTATTTGGGAATGGCAGCAGAGCCTTATGGGAATAGTTTGTTTTTTTTTCTACGCCGGGAACAAATGTTCCTTAGACATTTTTTTAATAAAGCTGGTAAAACTGGCGACGTTGTGCCTTCCGATATGTATATTGCTGGCTCTAATACCAGGTCCAAAATT--GCAGATAGTATATATTTTTCTACACCCAGTGGGTCTTTGGTTACTTCTGATTCTCAATTGTTTAACAAACCCTTATGGATACAAAAGGCCCAGGGACATAATAATGGCATTTGTTTTGGGAATCAGTTGTTTGTTACAGTGGTAGATACCACTCGTAGTACAAACTTAACGTTATGTGCCTCTACTGACCCTACTGTGCCCAGTACATATGACAATGCAAAGTTTAAGGAATACCTGCGGCATGTGGAAGAATATGATCTGCAGTTTATATTTCAATTATGCATAATAACGCTAAACCCAGAGGTTATGACATATATTCATACTATGGATCCCACATTATTAGAGGACTGGAATTTTGGTGTGTCCCCACCTGCCTC---TGCTTCTTTGGAAGATACTTATCGCTTTTTGTCTAACAAGGCCATTGCATGTCAAAAAAATGCTCCCCCA------AAAGAACGGGAGGATCCCTATAAAAAGTATACATTTTGGGATATAAATCTTACAGAAAAGTTTTCTGCACAACTTACCCAGTTTCCCTTAGGGCGCAAATTTGTTATGCAGGCGGGTTTGCGTCCCAAACCTAAATTAA-------AAACTGTAAAGCGTTCTGCACCATCCTCCTCTACGTCTGCCCCTGCCTCTAAACGCAAAAAAACTAAGC</Hsp_hseq>
+      <Hsp_midline>||| |||||||| ||||||   || |  ||| ||  | ||||| |||||||| ||  ||||||||||| |||||  || | |||| || || |||   ||  || ||| ||||||||    | || |  | |||||   |||| ||||| |||||||||||   |||||| ||| ||| |||| |||| || |  ||  |  | |||||||| || || || ||||| ||  |||||||  |   |  |   ||||||   || ||||| || || || |  |||||||| ||||||||| |  | || |||||||| ||||| ||||| ||| | || ||  || |   ||   |||| || |||||  | || ||||  || ||||| |||||  | ||| | || || || |||||||| || || ||||||||||| |  |||||||| |  |||||||| |||||  |   ||  ||||  ||| ||   | ||    ||||| ||||||  | || | |||||||| |||||||||||  ||||| |  |||| || | ||| ||||| || ||| | |||||  | ||    || ||   ||| |   ||   || |  | ||||||||||||   | |||| |||| ||    |||||| ||||||||||| |||||  |||| || |||||||| ||||| ||| || |  ||||||| |  |||||||| || ||  | ||  |   ||   |||   | |||||||| |||||| |   |||||   |||| || |||||  | || || ||||||| | ||||  |||||||||||||  |||||||||| |||||||  |||||||    ||| ||   ||| ||   |||| | || |||   ||||||    | |  | |||| ||   ||| |   || |||||| ||||||| ||||| ||| ||||||| |||||| | ||| | || || ||||| |  ||| |||||   || ||||| || ||||||||||||||||  || || ||  | |||||||| || || ||||| || || ||||||||  |  | |||||||   || |     |||||      | ||||||| | ||| | || |||||||| ||||| || |||| ||| ||||||||| | |||||||| |||||| | |||| ||||||  |||   |||| ||||||||||| || ||| ||||| || ||||  | || |||||||||||||||||| |    | |||| || |    |   |  | |||||||||||| | ||| |    | | |||| ||||| ||||||||| || | || |||      ||||||   || ||||||  |||||| || || ||||||||  ||||| | |  ||||||||||||||| | ||    |||||||| ||||| ||||||||| |  | || || || |||    ||||||| ||||| |       |||  | |||||      ||||| |||| ||||| ||| |  |||   ||||||||||||||  |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>6264</Hsp_hit-from>
+      <Hsp_hit-to>6252</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>CCTGACCCCAATA</Hsp_qseq>
+      <Hsp_hseq>CCTGACCCCAATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>727</Hsp_query-from>
+      <Hsp_query-to>747</Hsp_query-to>
+      <Hsp_hit-from>6321</Hsp_hit-from>
+      <Hsp_hit-to>6341</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>AAAAGTGAAGTTCCACTGGAT</Hsp_qseq>
+      <Hsp_hseq>AAAAGTGAAGTTATACAGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||  || ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>3.28872</Hsp_evalue>
+      <Hsp_query-from>370</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>5049</Hsp_hit-from>
+      <Hsp_hit-to>5063</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>CTGGTTTGGGCCTGT</Hsp_qseq>
+      <Hsp_hseq>CTCGTTTGGGCCTGT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>3.28872</Hsp_evalue>
+      <Hsp_query-from>685</Hsp_query-from>
+      <Hsp_query-to>696</Hsp_query-to>
+      <Hsp_hit-from>7549</Hsp_hit-from>
+      <Hsp_hit-to>7560</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>ACTGGCTTTGGT</Hsp_qseq>
+      <Hsp_hseq>ACTGGCTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|396937439|emb|HE962401.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS200 &gt;gi|396937441|emb|HE962402.1| Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS89 &gt;gi|396937443|emb|HE962403.1| Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS110 &gt;gi|396937445|emb|HE962404.1| Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS137 &gt;gi|396937449|emb|HE962406.1| Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS184 &gt;gi|396937455|emb|HE962409.1| Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS293</Hit_def>
+  <Hit_accession>HE962401</Hit_accession>
+  <Hit_len>1512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>623.449</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>1584</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>1500</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1026</Hsp_identity>
+      <Hsp_positive>1026</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>1468</Hsp_align-len>
+      <Hsp_qseq>TTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAAACCTAACAATAACAAAATATTAGTTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAATG--CAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCAG---TAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTA-CTGCAAATTTAGCCAGTTCAAAT-TATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTG---CTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGTCT---ACAACCTCCCCCAGGAGGCACACTAGAAGATACTTATAGGTTTGT---AACCCAGGCAATTGCTTGTCAAAAACATACACCTCCAGCACCTAAAGAA---GATGATCCCCTTAAAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTTACTACAAGCAGGATTGAAGGCCAAACCAAAATTTACATTAGGAAAACGAAAAGCTACACCCACCA-CCTCATCTACCTCTACAACTG---CTAAACGCAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TTGTGAGCACAGATGAATATGTGCAACGCACCAACTTATTTTATTATGCTGGCAGTTCACGTTTGCTTGCAGTGGGTCACCCATATTTCCCCCTTAAAAATTC---CTCTGGTAAAATAACTGTACCTAAGGTTTCTGGTTATCAATACAGAGTATTTAGAGTTAAATTGCCTGACCCTAATAAATTTGGCTTTTCAGAAACAACACTGGTTACATCAGACACTCAGCGTTTAGTCTGGGGATGCGTAGGAGTTGAAATTGGTAGAGGACAACCTTTAGGTGTTGGAATAAGTGGCCATCCCTATTTAAATAAGAATGATGACACTGAAAACCCGTCTGGGTATG--GCACATCGCCGGGACAAGATAACAGAGAAAATGTAGCAATGGATTATAAACAAACACAGCTGTGTATTGTTGGCTGTACACCTCCTATGGGTGAATATTGGGGTCAGGGTGTGCCTTG---CAACGCATCAGGTGTTACCCAAGGTGATTGTCCTGTAATAGAATTAAAAAGTGAAGTTATACAGGATGGTGACATGGTAGATACAGGATTTGGTGCAATGGATTTTGCTTCCCTACAGGCCAGTAAAAGTGATGTACCCTTAGACCTGGTTAATACTAAAAGTAAATATCCTGATTATTTGGGAATGGCAGCAGAGCCTTATGGGAATAGTTTGTTTTTTTTTCTACGCCGGGAACAAATGTTCCTTAGACATTTTTTTAATAGAGCTGGTAAAACTGGCGACGTTGTGCCTTCCGATATGTATATTGCTGGCTCTAATACCAGGTCCAAAATT--GCAGATAGTATATATTTTTCTACACCCAGTGGGTCTTTGGTTACTTCTGATTCTCAATTGTTTAACAAACCCTTATGGATACAAAAGGCCCAGGGACATAATAATGGCATTTGTTTTGGGAATCAGTTGTTTGTTACAGTGGTAGATACCACTCGTAGTACAAACTTAACGTTATGTGCCTCTACTGACCCTACTGTGCCCAGTACATATGACAATGCAAAGTTTAAGGAATACCTGCGGCATGTGGAAGAATATGATCTGCAGTTTATATTTCAATTATGCATAATAACGCTAAACCCAGAGGTTATGACATATATTCATACTATGGATCCCACATTATTAGAGGACTGGAATTTTGGTGTGTCCCCACCTGCCTC---TGCTTCTTTGGAAGATACTTATCGCTTTTTGTCTAACAAGGCCATTGCATGTCAAAAAAATGCTCCCCCA------AAAGAACGGGAGGATCCCTATAAACAGTATACATTTTGGGATATAAATCTTACAGAAAAGTTTTCTGCACAACTTACCCAGTTTCCCTTAGGGCGCAAATTTGTTATGCAGGCGGGTTTGCGTCCCAAACCTAAATTAA-------AAACTGTAAAGCGTTCTGCACCATCCTCCTCTACGTCTGCCCCTGCCTCTAAACGCAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||| ||||| |||||||||||   |||||| ||| ||| |||| |||| || |  ||  |  | |||||||| || || || ||||| ||  |||||||  |   |  |   ||||||   || ||||| || || || |  |||||||| ||||||||| |  | || |||||||| ||||| ||||| ||| | || ||  || |   ||   |||| || |||||  | || ||||  || ||||| |||||  | ||| | || || || |||||||| || || ||||||||||| |  ||||||||    |||||||| |||||  |   ||  ||||  ||| ||   | ||    ||||| ||||||  | || | |||||||| |||||||||||  ||||| |  |||| || | ||| ||||| || ||| | |||||  | ||    || ||   ||| |   |||   | |  | ||||||||||||   | |||| |||| ||    |||||| ||||||||||| |||||  |||| || |||||||| ||||| ||| || |  ||||||| |  |||||||| || ||  | ||  |   ||   |||   | |||||||| |||||| |   |||||   |||| || |||||  | || || ||||||| | ||||  |||||||||||||  |||||||||| |||||||| |||||||    ||| ||   ||| ||   |||| | || |||   ||||||    | |  | |||| ||   ||| |   || |||||| ||||||| ||||| ||| ||||||| |||||| | ||| | || || ||||| |  ||| |||||   || ||||| || ||||||||||||||||  || || ||  | |||||||| || || ||||| || || ||||||||  |  | |||||||   || |     |||||      | ||||||| | ||| | || |||||||| ||||| || |||| ||| ||||||||| | |||||||| |||||| | |||| ||||||  |||   |||| ||||||||||| || ||| ||||| || ||||  | || |||||||||||||||||| |    | |||| || |    |   |  | |||||||||||| | ||| |    | | |||| ||||| ||||||||| || | || |||      ||||||   || ||||||  |||| | || || ||||||||  ||||| | |  ||||||||||||||| | ||    |||||||| ||||| ||||||||| |  | || || || |||    ||||||| ||||| |       |||  | |||||      ||||| |||| ||||| ||| |  |||   ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>508</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>CCTGACCCCAATA</Hsp_qseq>
+      <Hsp_hseq>CCTGACCCCAATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>727</Hsp_query-from>
+      <Hsp_query-to>747</Hsp_query-to>
+      <Hsp_hit-from>565</Hsp_hit-from>
+      <Hsp_hit-to>585</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>AAAAGTGAAGTTCCACTGGAT</Hsp_qseq>
+      <Hsp_hseq>AAAAGTGAAGTTATACAGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||  || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|396937447|emb|HE962405.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS176 &gt;gi|396937451|emb|HE962407.1| Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS237 &gt;gi|396937457|emb|HE962410.1| Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS53</Hit_def>
+  <Hit_accession>HE962405</Hit_accession>
+  <Hit_len>1512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.235</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>8.19258e-179</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>1591</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>1507</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1026</Hsp_identity>
+      <Hsp_positive>1026</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>1472</Hsp_align-len>
+      <Hsp_qseq>TTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAAACCTAACAATAACAAAATATTAGTTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAATG--CAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCAGTAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTA-CTGCAAATTTAGCCAGTTCAAAT-TATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTG---CTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGTCT---ACAACCTCCCCCAGGAGGCACACTAGAAGATACTTATAGGTTTGT---AACCCAGGCAATTGCTTGTCAAAAACATACACCTCCAGCACCTAAAGAA---GATGATCCCCTTAAAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTTACTACAAGCAGGATTGAAGGCCAAACCAAAATTTACATTAGGAAAACGAAAAGCTACACCCACCA-CCTCATCTACCTCTACAACTG---CTAAACGCAAAAAACGTAAGC</Hsp_qseq>
+      <Hsp_hseq>TTGTGAGCACAGATGAATATGTGCAACGCACCAACTTATTTTATTATGCTGGCAGTTCACGTTTGCTTGCAGTGGGTCACCCATATTTCCCCCTTAAAAATTC---CACTGGTAAAATAACTGTACCTAAGGTGTCTGGTTATCAGTACAGAGTATTTAGAGTTAAATTGCCTGACCCTAATAAATTTGGCTTTTCAGAAACAACACTGGTTACATCAGACACTCAGCGTTTAGTCTGGGGATGCGTAGGAGTTGAAATTGGTAGAGGACAACCTTTAGGTGTTGGAATAAGTGGCCATCCCTATTTAAATAAGTATGATGACACTGAAAACCCGTCTGGGTATG--GCACATCGCCGGGACAAGATAACAGAGAAAATGTAGCAATGGATTATAAACAAACACAGCTGTGTATTGTTGGCTGTACACCTCCTATGGGTGAATATTGGGGTCAGGGTGTGCCTTGCAGCGCATCAGGTGTTACCCAAGGTGATTGTCCTGTAATAGAATTAAAAAGTGAAGTTATACAGGATGGTGACATGGTAGATACAGGATTTGGTGCAATGGATTTTGCTTCCCTACAGGCCAGTAAAAGTGATGTACCCTTAGACCTGGTTAATACTAAAAGTAAATATCCTGATTATTTGGGAATGGCAGCAGAGCCTTATGGGAATAGTTTGTTTTTTTTTCTACGCCGGGAACAAATGTTCCTTAGACATTTTTTTAATAAAGCTGGTAAAACTGGCGACGTTGTGCCTTCCGATATGTATATTGCTGGCTCTAATACCAGGTCCAAAATT--GCAGATAGTATATATTTTTCTACACCCAGTGGGTCTTTGGTTACTTCTGATTCTCAATTGTTTAACAAACCCTTATGGATACAAAAGGCCCAGGGACATAATAATGGCATTTGTTTTGGGAATCAGTTGTTTGTTACAGTGGTAGATACCACTCGTAGTACAAACTTGACGTTATGTGCCTCTACTGACCCTACTGTGCCCAGTACATATGACAATGCAAAGTTTAAGGAATACTTGCGGCATGTGGAAGAATATGATCTGCAGTTTATATTTCAATTATGCATAATAACGCTAAACCCAGAGGTTATGACATATATTCATACTATGGATCCCACATTATTAGAGGACTGGAATTTTGGTGTGTCCCCACCTGCCTC---TGCTTCTTTGGAAGATACTTATCGCTTTTTGTCTAACAAGGCCATTGCATGTCAAAAAAATGCTCCCCCA------AAGGAACGGGAGGATCCCTATAAAAAGTATACATTTTGGGATATAAATCTTACAGAAAAGTTTTCTGCACAACTTACCCAGTTTCCCTTAGGGCGCAAATTTGTTATGCAGGCGGGTCTGCGTCCCAAACCTAAATTAA-------AAACTGTAAAGCGTTCTGCACCATCCTCCTCTACGTCTGCCCCTGCCTCTAAACGCAAAAAGACTAAGC</Hsp_hseq>
+      <Hsp_midline>|||| ||||| |||||||||||   |||||| ||| ||| |||| |||| || |  ||  |  | |||||||| || || || ||||| ||  |||||||  |   || |   ||||||   || ||||| || || || |  || ||||| ||||||||| |  | || |||||||| ||||| ||||| ||| | || ||  || |   ||   |||| || |||||  | || ||||  || ||||| |||||  | ||| | || || || |||||||| || || ||||||||||| |  |||||||| |  |||||||| |||||  |   ||  ||||  ||| ||   | ||    ||||| ||||||  | || | |||||||| |||||||||||  ||||| |  |||| || | ||| ||||| || ||| | |||||  | ||    || || | |      |  || |  | ||||||||||||   | |||| |||| ||    |||||| ||||||||||| |||||  |||| || |||||||| ||||| ||| || |  ||||||| |  |||||||| || ||  | ||  |   ||   |||   | |||||||| |||||| |   |||||   |||| || |||||  | || || ||||||| | ||||  |||||||||||||  |||||||||| |||||||  |||||||    ||| ||   ||| ||   |||| | || |||   ||||||    | |  | |||| ||   ||| |   || |||||| ||||||| ||||| ||| ||||||| |||||| | ||| | || || ||||| |  ||| |||||   || ||||| || ||||||||||||||||  || || ||  | |||||||| || || ||||| || || ||||||||  || | |||||||   || |     |||||      | ||||||| | ||| | || |||||||| ||| | || |||| ||| ||||||||| | |||||||| |||||| | |||| ||||||  |||   |||| ||||||||||| || ||| ||||| || ||||  | || |||||||||||||||||| |    | |||| || |    |   |  | |||||||||||| | ||| |    | | |||| ||||| ||||||||| || | || |||      || |||   || ||||||  |||||| || || ||||||||  ||||| | |  ||||||||||||||| | ||    |||||||| ||||| ||||||||| |  | || || ||  ||    ||||||| ||||| |       |||  | |||||      ||||| |||| ||||| ||| |  |||   |||||||||||||   |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>1396</Hsp_query-from>
+      <Hsp_query-to>1413</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CCCCTTAAAAAATACACT</Hsp_qseq>
+      <Hsp_hseq>CCCCTTAAAAATTCCACT</Hsp_hseq>
+      <Hsp_midline>||||||||||| | ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>508</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>CCTGACCCCAATA</Hsp_qseq>
+      <Hsp_hseq>CCTGACCCCAATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>727</Hsp_query-from>
+      <Hsp_query-to>747</Hsp_query-to>
+      <Hsp_hit-from>565</Hsp_hit-from>
+      <Hsp_hit-to>585</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>AAAAGTGAAGTTCCACTGGAT</Hsp_qseq>
+      <Hsp_hseq>AAAAGTGAAGTTATACAGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||  || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|396937453|emb|HE962408.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 43 L1 gene for major capsid protein, isolate CS247</Hit_def>
+  <Hit_accession>HE962408</Hit_accession>
+  <Hit_len>1512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.628</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>9.9806e-178</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>1591</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>1507</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1025</Hsp_identity>
+      <Hsp_positive>1025</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>1471</Hsp_align-len>
+      <Hsp_qseq>TTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAAACCTAACAATAACAAAATATTAGTTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAATG--CAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCAGTAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTA-CTGCAAATTTAGCCAGTTCAAAT-TATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTG---CTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGTCT---ACAACCTCCCCCAGGAGGCACACTAGAAGATACTTATAGGTTTGT---AACCCAGGCAATTGCTTGTCAAAAACATACACCTCCAGCACCTAAAGAA---GATGATCCCCTTAAAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTTACTACAAGCAGGATTGAAGGCCAAACCAAAATTTACATTAGGAAAACGAAAAGCTACACCCACCACCTCATCTACCTCTACAACTG---CTAAACGCAAAAAACGTAAGC</Hsp_qseq>
+      <Hsp_hseq>TTGTGAGCACAGATGAATATGTGCAACGCACCAACTTATTTTATTATGCTGGCAGTTCACGTTTGCTTGCAGTGGGTCACCCATATTTCCCCCTTAAAAATTC---CACTGGTAAAATAACTGTACCTAAGGTGTCTGGTTATCAGTACAGAGTATTTAGAGTTAAATTGCCTGACCCTAATAAATTTGGCTTTTCAGAAACAACACTGGTTACATCAGACACTCAGCGTTTAGTCTGGGGATGCGTAGGAGTTGAAATTGGTAGAGGACAACCTTTAGGTGTTGGAATAAGTGGCCATCCCTATTTAAATAAGTATGATGACACTGAAAACCCGTCTGGGTATG--GCACATCGCCGGGACAAGATAACAGAGAAAATGTAGCAATGGATTATAAACAAACACAGCTGTGTATTGTTGGCTGTACACCTCCTATGGGTGAATATTGGGGTCAGGGTGTGCCTTGCAGCGCATCAGGTGTTACCCAAGGTGATTGTCCTGTAATAGAATTAAAAAGTGAAGTTATACAGGATGGTGACATGGTAGATACAGGATTTGGTGCAATGGATTTTGCTTCCCTACAGGCCAGTAAAAGTGATGTACCCTTAGACCTGGTTAATACTAAAAGTAAATATCCTGATTATTTGGGAATGGCAGCAGAGCCTTATGGGAATAGTTTGTTTTTTTTTCTACGCCGGGAACAAATGTTCCTTAGACATTTTTTTAATAAAGCTGGTAAAACTGGCGACGTTGTGCCTTCCGATATGTATATTGCTGGCTCTAATACCAGGTCCAAAATT--GCAGATAGTATATATTTTTCTACACCCAGTGGGTCTTTGGTTACTTCTGATTCTCAATTGTTTAACAAACCCTTATGGATACAAAAGGCCCAGGGACATAATAATGGCATTTGTTTTGGGAATCAGTTGTTTGTTACAGTGGTAGATACCACTCGTAGTACAAACTTGACGTTATGTGCCTCTACTGACCCTACTGTGCCCAGTACATATGACAATGCAAAGTTTAAGGAATACTTGCGGCATGTGGAAGAATATGATCTGCAGTTTATATTTCAATTATGCATAATAACGCTAAACCCAGAGGTTATGACATATATTCATACTATGGATCCCACATTATTAGAGGACTGGAATTTTGGTGTGTCCCCACCTGCCTC---TGCTTCTTTGGAAGATACTTATCGCTTTTTGTCTAACAAGGCCATTGCATGTCAAAAAAATGCTCCCCCA------AAGGAACGGGAGGATCCCTATAAAAAGTATACATTTTGGGATATAAATCTTACAGAAAAGTTTTCTGCACAACTTACCCAGTTTCCCTTAGGGCGCAAATTTGTTATGCAGGCGGGTCTGCGTCCCAAACCTAAATTAAAAACTGTAAAGCG---TTCTGCAC---CTTCCTCCTCTACGTCTGCCCCTGCCTCTAAACGCAAAAAGACTAAGC</Hsp_hseq>
+      <Hsp_midline>|||| ||||| |||||||||||   |||||| ||| ||| |||| |||| || |  ||  |  | |||||||| || || || ||||| ||  |||||||  |   || |   ||||||   || ||||| || || || |  || ||||| ||||||||| |  | || |||||||| ||||| ||||| ||| | || ||  || |   ||   |||| || |||||  | || ||||  || ||||| |||||  | ||| | || || || |||||||| || || ||||||||||| |  |||||||| |  |||||||| |||||  |   ||  ||||  ||| ||   | ||    ||||| ||||||  | || | |||||||| |||||||||||  ||||| |  |||| || | ||| ||||| || ||| | |||||  | ||    || || | |      |  || |  | ||||||||||||   | |||| |||| ||    |||||| ||||||||||| |||||  |||| || |||||||| ||||| ||| || |  ||||||| |  |||||||| || ||  | ||  |   ||   |||   | |||||||| |||||| |   |||||   |||| || |||||  | || || ||||||| | ||||  |||||||||||||  |||||||||| |||||||  |||||||    ||| ||   ||| ||   |||| | || |||   ||||||    | |  | |||| ||   ||| |   || |||||| ||||||| ||||| ||| ||||||| |||||| | ||| | || || ||||| |  ||| |||||   || ||||| || ||||||||||||||||  || || ||  | |||||||| || || ||||| || || ||||||||  || | |||||||   || |     |||||      | ||||||| | ||| | || |||||||| ||| | || |||| ||| ||||||||| | |||||||| |||||| | |||| ||||||  |||   |||| ||||||||||| || ||| ||||| || ||||  | || |||||||||||||||||| |    | |||| || |    |   |  | |||||||||||| | ||| |    | | |||| ||||| ||||||||| || | || |||      || |||   || ||||||  |||||| || || ||||||||  ||||| | |  ||||||||||||||| | ||    |||||||| ||||| ||||||||| |  | || || ||  ||    ||||||| ||||| | |   | ||| ||     || |||   |  |||| ||||| ||| |  |||   |||||||||||||   |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>1396</Hsp_query-from>
+      <Hsp_query-to>1413</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CCCCTTAAAAAATACACT</Hsp_qseq>
+      <Hsp_hseq>CCCCTTAAAAATTCCACT</Hsp_hseq>
+      <Hsp_midline>||||||||||| | ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>508</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>CCTGACCCCAATA</Hsp_qseq>
+      <Hsp_hseq>CCTGACCCCAATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>0.942233</Hsp_evalue>
+      <Hsp_query-from>727</Hsp_query-from>
+      <Hsp_query-to>747</Hsp_query-to>
+      <Hsp_hit-from>565</Hsp_hit-from>
+      <Hsp_hit-to>585</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>AAAAGTGAAGTTCCACTGGAT</Hsp_qseq>
+      <Hsp_hseq>AAAAGTGAAGTTATACAGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||  || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|392495386|gb|JQ902119.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 43 isolate S7 L1 protein (L1) gene, partial cds</Hit_def>
+  <Hit_accession>JQ902119</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.938</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.93695e-66</Hsp_evalue>
+      <Hsp_query-from>1024</Hsp_query-from>
+      <Hsp_query-to>1472</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>GCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATAT---CTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGTCT---ACAACCTCCCCCAGGAGGCACACTAGAAGATACTTATAGGTTTGT---AACCCAGGCAATTGCTTGTCAAAAACATACACCTCCAGCACCTAAAGAA---GATGATCCCCTTAAAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGG</Hsp_qseq>
+      <Hsp_hseq>GCCCAGGGACATAATAATGGCATTTGTTTTGGGAATCAGTTGTTTGTTACAGTGGTAGATACCACTCGTAGTACAAACTTGACGTTATGTGCCTCTACTGACCCTACTGTGCCCAGTACATATGACAATGCAAAGTTTAAGGAATACCTGCGGCATGTGGAAGAATATGATCTGCAGTTTATATTTCAATTATGCATAATAACGCTAAACCCAGAGGTTATGACATATATTCATACTATGGATCCCACATTATTAGAGGACTGGAATTTTGGTGTGTCCCCACCTGCCTC---TGCTTCTTTGGAAGATACTTATCGCTTTTTGTCTAACAAAGCCATTGCATGTCAAAAAAATGCTCCCCCA------AAAGAACGGGAGGATCCCTATAAAAAGTATACATTTTGGGATATAAATCTTACAGAAAAGTTTTCTGCACAACTTACCCAGTTTCCCTTAGG</Hsp_hseq>
+      <Hsp_midline>|| ||||| || ||||||||||||||||  || || ||  | |||||||| || || ||||| || || ||||||||  || | ||||||||  | |      |||||      | ||||||| | ||| | || |||||||| ||||| || |||| ||| ||||||||| | |||||||| |||||| | |||| ||||||  |||   |||| ||||||||||| || ||| ||||| || ||||  | || |||||||||||||||||| |    | |||| || |    |   |  | |||||||||||| | ||| |    | | | || ||||| ||||||||| || | || |||      ||||||   || ||||||  |||||| || || ||||||||  ||||| | |  ||||||||||||||| | ||    |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|577410|gb|U12504.1|HPU1250411</Hit_id>
+  <Hit_def>Human papillomavirus type 43 L1 protein gene, My09/My11 region, partial cds</Hit_def>
+  <Hit_accession>U12504</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.528</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>8.23611e-65</Hsp_evalue>
+      <Hsp_query-from>1024</Hsp_query-from>
+      <Hsp_query-to>1472</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>GCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATAT---CTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGTCT---ACAACCTCCCCCAGGAGGCACACTAGAAGATACTTATAGGTTTGT---AACCCAGGCAATTGCTTGTCAAAAACATACACCTCCAGCACCTAAAGAA---GATGATCCCCTTAAAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGG</Hsp_qseq>
+      <Hsp_hseq>GCCCAGGGACATAATAATGGCATTTGTTTTGGGAATCAGTTGTTTGTTACAGTGGTAGATACCACTCGTAGTACAAACTTGACGTTATGTGCCTCTACTGACCCTACTGTGCCCAGTACATATGACAATGCAAAGTTTAAGGAATACTTGCGGCATGTGGAAGAATATGATCTGCAGTTTATATTTCAATTATGCATAATAACGCTAAACCCAGAGGTTATGACATATATTCATACTATGGATCCCACATTATTAGAGGACTGGAATTTTGGTGTGTCCCCACCTGCCTC---TGCTTCTTTGGAAGATACTTATCGCTTTTTGTCTAACAAGGCCATTGCATGTCAAAAAAATGCTCCCCCA------AAGGAACGGGAGGATCCCTATAAAAAGTATACATTTTGGGATATAAATCTTACAGAAAAGTTTTCTGCACAACTTACCCAGTTTCCCTTAGG</Hsp_hseq>
+      <Hsp_midline>|| ||||| || ||||||||||||||||  || || ||  | |||||||| || || ||||| || || ||||||||  || | ||||||||  | |      |||||      | ||||||| | ||| | || |||||||| ||| | || |||| ||| ||||||||| | |||||||| |||||| | |||| ||||||  |||   |||| ||||||||||| || ||| ||||| || ||||  | || |||||||||||||||||| |    | |||| || |    |   |  | |||||||||||| | ||| |    | | |||| ||||| ||||||||| || | || |||      || |||   || ||||||  |||||| || || ||||||||  ||||| | |  ||||||||||||||| | ||    |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|396937483|emb|HE962425.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 43 long control region, isolate CS176 &gt;gi|396937485|emb|HE962427.1| Human papillomavirus type 43 long control region, isolate CS237 &gt;gi|396937486|emb|HE962428.1| Human papillomavirus type 43 long control region, isolate CS247 &gt;gi|396937488|emb|HE962430.1| Human papillomavirus type 43 long control region, isolate CS53</Hit_def>
+  <Hit_accession>HE962425</Hit_accession>
+  <Hit_len>840</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>3.28872</Hsp_evalue>
+      <Hsp_query-from>685</Hsp_query-from>
+      <Hsp_query-to>696</Hsp_query-to>
+      <Hsp_hit-from>309</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>ACTGGCTTTGGT</Hsp_qseq>
+      <Hsp_hseq>ACTGGCTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|396937479|emb|HE962421.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 43 long control region, isolate CS200 &gt;gi|396937480|emb|HE962422.1| Human papillomavirus type 43 long control region, isolate CS89 &gt;gi|396937481|emb|HE962423.1| Human papillomavirus type 43 long control region, isolate CS110 &gt;gi|396937482|emb|HE962424.1| Human papillomavirus type 43 long control region, isolate CS137 &gt;gi|396937484|emb|HE962426.1| Human papillomavirus type 43 long control region, isolate CS184 &gt;gi|396937487|emb|HE962429.1| Human papillomavirus type 43 long control region, isolate CS293</Hit_def>
+  <Hit_accession>HE962421</Hit_accession>
+  <Hit_len>808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>3.28872</Hsp_evalue>
+      <Hsp_query-from>685</Hsp_query-from>
+      <Hsp_query-to>696</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>ACTGGCTTTGGT</Hsp_qseq>
+      <Hsp_hseq>ACTGGCTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>13</Statistics_db-num>
+      <Statistics_db-len>16851</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
+

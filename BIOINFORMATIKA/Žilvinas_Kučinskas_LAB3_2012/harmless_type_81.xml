@@ -1,0 +1,898 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.27+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>28071</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>1596</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>28071</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>1596</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|296144318|gb|GQ288793.1|</Hit_id>
+  <Hit_def>Human papillomavirus - 81 clone 15L major capsid protein L1 (L1) gene, complete cds</Hit_def>
+  <Hit_accession>GQ288793</Hit_accession>
+  <Hit_len>1599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.819</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>9.83702e-144</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>1484</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>1496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>994</Hsp_identity>
+      <Hsp_positive>994</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>1459</Hsp_align-len>
+      <Hsp_qseq>ACGTAAACGTTTACCATATTTTTTTTCAGATGTCTCTTTGGCTGCCTAGTGAGGCCACTGTCTACTTGCCTCCTGTCCCAGTATCTAAGGTTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAA-----ACCTAACAATAACAAAATATTAGTTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAATGCAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCAGTAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTACTG-CAAATTTAGCC-----AGTTCAAATTATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT---CTACAACCTCC-CCCAGGAGGCACACTAGAAGATACTTATAGGTTTGTA---ACCCAGGCAATTGCTTGTCAAAAACATACACCT---CCAGCACCTAAAGAAGATGATCCCCTTAAAAAATACACTT--TTTGGGA-AGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTT</Hsp_qseq>
+      <Hsp_hseq>ACATAAACGTATTCACTATTCTTTTACAGATGGCTATGTGGCGGCCTGGTGACGGCAAGGTATACCTGCCTCCCACACCTGTGTCTAAAGTTATCAGTACGGACGCCTATGTAACCCGCACCAACCTTTTTTATTATGGGGGCAGTTCCCGCCTTCTTACTGTAGGGCATCCATATTGTAC-ATTAACTATTGGTACCCAAGGAAAGCGTTCCACTA-TTCCCAAGGTGTCTGGGTATCAGTACCGGGTGTTTCGTGTGAAGCTCCCTGACCCTAATAAGTTTGCTTTACCTGATGGTACCTTATATAACCCAGACACCGAACGCATGGTATGGGCTTGCAGGGGCATTGAGGTAGGCCGCGGACAGCCTTTGGGCGTAGGTACTAGTGGTCACCCATTATATAATCGCTTGGATGATACAGAAAACACT---GCTTATTTGGCTGCTGCCAGTGAGGACAGTCGTGACAATATTTCAGTTGATTATAAGCAAACACAATTATTAATTATTGGTTGCAAGCCCCCCATTGGGGAGCACTGGGCCCGGGGTACCTTTTGTGCTAATGTTGCTCCAGCACAAAACGAATGCCCCCCCTTGGAGTTTAAAAATACAACCATTCAGGATGGGGACATGGTGGAAACTGGCTATGGGGCCATTGATTTTAAGGCCCTGCAGGAAAATAAATCTGAGGTGCCCTTGGATATTTGCAATACCACCTGTAAGTATCCAGATTATTTACAAATGGCTGCTGAGCCATATGGGGATTGCATGTTTTTTTGTCTACGTCGGGAGCAAATGTTTGCAAGGCACTTTTTTAATAGACATGGCACTATGGGCGAGGCCTTACCTGCAGACTTATATATGAAGGGTGCTGCAGGCAGTGACAGAATAAACCCCGGGAGTTATATTTATGCCCCTACACCTAGTGGGTCTATGGTATCCTCTGATTCCCAGCTGTTTAATAAGCCTTATTGGCTACAACGGGCACAGGGCCATAATAATGGCATTTGTTGGTTTAATGAAATGTTTGTTACAGTGGTGGATACTACCAGAAGCACCAATTTTACTATTTGCACAGCTACATCTGCTGCTG---CAGAATACAAGGCCTCTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGTGTGTTGCCACCTCCTTCCA----CCAGTTTAGATGACACATATCGCTTTTTACAGTCTCGGGCCATTACCTGTCAAAAGGGTGCTGCTGCCCCTGCGCCCAAAGAGGA-----CCCTT-ATGCCGACATGTCATTTGGGACAGTTGACCTTAAGGACAAGTTGTCTACTGATTTAGATCAGTTTCCTTTGGGTCGCAAGTTTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||| | |  |||| |||| |||||| || | |||| |||| |||| | ||  || ||| |||||||    || || ||||| ||| | || ||||| |  |||||  | ||||| ||| | | |||| |||  || |  ||| | || ||| | || || ||||| |||| | | |||||  |     ||| ||  | | |     | || |||| || || || || |  || ||| |||| ||| |  |  |  | |||||||| |||||||||| ||| |||||     | || ||||| ||||| ||  | ||  |||| ||||| ||    ||  |||||||||| || || ||||| || || || || | |||||| || || ||||  |||   |||||||| ||||||||  ||   ||||||   ||   |||  ||| ||| | | | ||   ||| ||  | ||||| || ||||||||||| |   | ||||||||||| || || || ||||| ||||||| |   ||  ||   ||| | ||||||||   |   | |   || || || || || ||||| | ||| |||   ||||||||||| || |||||  | ||||||| ||| || || || ||||   |  | ||||  || |||  ||| || ||  |||||||||| |   | |  || || |||||||||||| |  ||||||   | || |||||||| ||  || | ||||||| | ||||  |||| ||||||||||  || || || ||||||||   ||| ||| | || ||     |||| |  || ||||| || || ||  |||     | || || | | | ||     ||||  | ||||   |||||||||||||| ||||||||  |||||||| ||||  | || ||||| ||||||||| ||||||| ||||||||||| ||||||||||||||||||  |||  || | |||||||| || || ||||||||  | || || ||| |  |  | ||  | || | |||| || | |   |   ||| ||     ||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||    | | ||||||  |||     ||   |||| || || ||| | ||| ||    | | ||| ||| | ||||||||   | |  ||   || || || ||||| ||     ||||| |     |||  |  ||||||| |||  |  | ||||| ||||| ||| | ||  |||||||||||||||| || ||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>2.04194</Hsp_evalue>
+      <Hsp_query-from>762</Hsp_query-from>
+      <Hsp_query-to>774</Hsp_query-to>
+      <Hsp_hit-from>761</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>TTGCAAATATCCA</Hsp_qseq>
+      <Hsp_hseq>TTGCAAATATCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>7.12707</Hsp_evalue>
+      <Hsp_query-from>839</Hsp_query-from>
+      <Hsp_query-to>850</Hsp_query-to>
+      <Hsp_hit-from>1073</Hsp_hit-from>
+      <Hsp_hit-to>1084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>AAATGTTTGTTA</Hsp_qseq>
+      <Hsp_hseq>AAATGTTTGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|40804509|emb|AJ620209.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 complete genome</Hit_def>
+  <Hit_accession>AJ620209</Hit_accession>
+  <Hit_len>8070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.213</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>1.19839e-142</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>1484</Hsp_query-to>
+      <Hsp_hit-from>5829</Hsp_hit-from>
+      <Hsp_hit-to>7269</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>992</Hsp_identity>
+      <Hsp_positive>992</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>1459</Hsp_align-len>
+      <Hsp_qseq>ACGTAAACGTTTACCATATTTTTTTTCAGATGTCTCTTTGGCTGCCTAGTGAGGCCACTGTCTACTTGCCTCCTGTCCCAGTATCTAAGGTTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAA-----ACCTAACAATAACAAAATATTAGTTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAATGCAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCAGTAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTACTG-CAAATTTAGCC-----AGTTCAAATTATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT---CTACAACCTCC-CCCAGGAGGCACACTAGAAGATACTTATAGGTTTGTA---ACCCAGGCAATTGCTTGTCAAAAACATACACCT---CCAGCACCTAAAGAAGATGATCCCCTTA---AAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTT</Hsp_qseq>
+      <Hsp_hseq>ACATAAACGTATTCACTATTCTTTTACAGATGGCTATGTGGCGGCCTGGTGACGGCAAGGTATACCTGCCTCCCACACCTGTGTCTAAAGTTATCAGTACGGACGCCTATGTAACCCGCACCAACCTTTTTTATTATGGGGGCAGTTCCCGCCTTCTTACTGTAGGGCATCCATATTGTAC-ATTAACTATTGGTACCCAAGGAAAGCGTTCCACTA-TTCCCAAGGTGTCTGGGTATCAGTACCGGGTGTTTCGTGTGAAGCTCCCTGACCCTAATAAGTTTGCTTTACCTGATGGTACCTTATATAACCCAGACACCGAACGCATGGTATGGGCTTGCAGGGGCATTGAGGTAGGCCGCGGACAGCCTTTGGGCGTAGGTACTAGTGGTCACCCATTATATAATCGCTTGGATGATACAGAAAACACT---GCTTATTTGGCTGCTGCCAGTGAGGACAGTCGTGACAATATTTCAGTTGATTATAAGCAAACACAATTATTAATTATTGGTTGCAAGCCCCCCATTGGGGAGCACTGGGCCCGGGGTACCTTTTGTGCTAATGTTGCTCCAGCACAAAACGAATGCCCCCCCTTGGAGTTTAAAAATACAACCATTCAGGATGGGGACATGGTGGAAACTGGCTATGGGGCCATTGATTTTAAGGCCCTGCAGGAAAATAAATCGGAGGTGCCCTTGGATATTTGCAATACCACCTGTAAGTATCCAGATTATTTACAAATGGCTGCTGAGCCATATGGGGATTGCATGTTTTTTTGTCTACGTCGGGAGCAAATGTTTGCAAGGCACTTTTTTAATAGACATGGCACTATGGGCGAGGCCTTACCTGCAGACTTATATATGAAGGGTGCTGCAGGCAGTGACAGAATAACCCCCGGGAGTTATATTTATGCCCCTACACCTAGTGGGTCTATGGTATCCTCTGATTCCCAGCTGTTTAATAAGCCTTATTGGCTACAACGGGCACAGGGCCATAATAATGGCATTTGTTGGTTTAATGAAATGTTTGTTACAGTGGTGGATACTACCAGAAGCACCAATTTTACTATTTGCACAGCTACATCTGCTGCTG---CAGAATACAAGGCCTCTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGTGTGTTGCCACCTCCTTCCA----CCAGTTTAGATGACACATATCGCTTTTTACAGTCTCGGGCCATTACCTGTCAAAAGGGTGCTGCTGCCCCTGCGCCCAAAGAGGA-----CCCTTATGCCGACAT-GTCATTTTGGACAGTTGACCTTAAGGACAAGTTGTCTACTGATTTAGATCAGTTTCCTTTGGGTCGCAAGTTTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||| | |  |||| |||| |||||| || | |||| |||| |||| | ||  || ||| |||||||    || || ||||| ||| | || ||||| |  |||||  | ||||| ||| | | |||| |||  || |  ||| | || ||| | || || ||||| |||| | | |||||  |     ||| ||  | | |     | || |||| || || || || |  || ||| |||| ||| |  |  |  | |||||||| |||||||||| ||| |||||     | || ||||| ||||| ||  | ||  |||| ||||| ||    ||  |||||||||| || || ||||| || || || || | |||||| || || ||||  |||   |||||||| ||||||||  ||   ||||||   ||   |||  ||| ||| | | | ||   ||| ||  | ||||| || ||||||||||| |   | ||||||||||| || || || ||||| ||||||| |   ||  ||   ||| | ||||||||   |   | |   || || || || || ||||| | ||| |||   ||||||||||| || |||||  | ||||||| ||| || || || ||||   |  | ||||  || |||   || || ||  |||||||||| |   | |  || || |||||||||||| |  ||||||   | || |||||||| ||  || | ||||||| | ||||  |||| ||||||||||  || || || ||||||||   ||| ||| | || ||     |||| |  || ||||| || || ||  |||     | || || | | | ||     ||||  | ||||   |||||||||||||| ||||||||  |||||||| ||||  | || ||||| ||||||||| ||||||| ||||||||||| ||||||||||||||||||  |||  || | |||||||| || || ||||||||  | || || ||| |  |  | ||  | || | |||| || | |   |   ||| ||     ||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||    | | ||||||  |||     ||   |||| || || ||| | ||| ||    | | ||| ||| | ||||||||   | |  ||   || || || ||||| ||     ||||||     | ||   | ||||||  |||  |  | ||||| ||||| ||| | ||  |||||||||||||||| || ||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>7.12707</Hsp_evalue>
+      <Hsp_query-from>485</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>4120</Hsp_hit-from>
+      <Hsp_hit-to>4109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>CAGCAAATGCAG</Hsp_qseq>
+      <Hsp_hseq>CAGCAAATGCAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|296144309|gb|GQ288789.1|</Hit_id>
+  <Hit_def>Human papillomavirus - 81 clone 2L major capsid protein L1 (L1) gene, complete cds</Hit_def>
+  <Hit_accession>GQ288789</Hit_accession>
+  <Hit_len>1599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.196</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>6.20784e-140</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>1484</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>1496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>990</Hsp_identity>
+      <Hsp_positive>990</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>1459</Hsp_align-len>
+      <Hsp_qseq>ACGTAAACGTTTACCATATTTTTTTTCAGATGTCTCTTTGGCTGCCTAGTGAGGCCACTGTCTACTTGCCTCCTGTCCCAGTATCTAAGGTTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAA-----ACCTAACAATAACAAAATATTAGTTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAATGCAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCAGTAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTACTG-CAAATTTAGCC-----AGTTCAAATTATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT---CTACAACCTCC-CCCAGGAGGCACACTAGAAGATACTTATAGGTTTGTA---ACCCAGGCAATTGCTTGTCAAAAACATACACCT---CCAGCACCTAAAGAAGATGATCCCCTTA---AAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTT</Hsp_qseq>
+      <Hsp_hseq>ACATAAACGTATTCACTATTCTTTTACAGATGGCTATGTGGCGGCCTGGTGACGGCAAGGTATACCTGCCTCCCACACCTGTGTCTAAAGTTATCAGTACGGACGCCTATGTAACCCGCACCAACCTTTTTTATTATGGGGGCAGTTCCCGCCTTCTTACTGTAGGGCATCCATATTGTAC-ATTAACTATTGGTACCCAAGGAAAGCGTTCCACCA-TTCCCAAGGTGTCTGGGTATCAGTACCGGGTGTTTCGTGTGAAGCTCCCTGACCCTAATAAGTTTGCTTTACCTGATGGTACCTTATATAACCCAGACACCGAACGCATGGTATGGGCTTGCAGGGGCATTGAGGTAGGCCGCGGACAGCCTTTGGGCGTAGGTACTAGTGGTCACCCATTATATAATCGCTTGGATGATACAGAAAACACT---GCTTATTTGGCTGCTGCCAGTGAGGACAGTCGTGACAATATTTCAGTTGATTATAAGCAAACACAATTATTAATTATTGGTTGCAAGCCCCCCATTGGGGAGCACTGGGCCCGGGGTACCTTTTGTGCTAATGTTGCTCCAGCACAAAACGAATGCCCCCCCTTGGAGTTTAAAAATACAACCATTCAGGATGGGGACATGGTGGAAACTGGCTATGGGGCCATTGATTTTAAGGCCCTGCAGGAAAATAAATCGGAGGTGCCCTTGGATATTTGCAATACCACCTGTAAGTATCCAGATTATTTACAAATGGCTGCTGAGCCATATGGGGATTGCATGTTTTTTTGTCTACGTCGGGAGCAAATGTTTGCAAGGCACTTTTTTAATAGACATGGCACTATGGGCGAGGCCTTACCTGCAGACTTATATATGAAGGGTGCTGCAGGCAGTGACAGAATAACCCCCGGGAGTTATATTTATGCCCCTACACCTAGTGGGTCTATGGTATCCTTTGATTCCCAGCTGTTTAATAAGCCTTATTGGCTACAACGGGCACAGGGCCATAATAATGGCATTTGTTGGGTTAATGAAATGTTTGTTACAGTGGTGGATACTACCAGAAGCACCAATTTTACTATTTGCACAGCTACATCTGCTGCTG---CAGAATACAAGGCCTCTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGTGTGTTGCCACCTCCTTCCA----CCAGTTTAGATGACACATATCGCTTTTTACAGTCTCGGGTCATTACCTGTCAAAAGGGTGCTGCTGCCCCTGCGCCCAAAGAGGA-----CCCTTATGCCGACAT-GTCATTTTGGACAGTTGACCTTAAGGACAAGTTGTCTACTGATTTAGATCAGTTTCCTTTGGGTCGCAAGTTTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||| | |  |||| |||| |||||| || | |||| |||| |||| | ||  || ||| |||||||    || || ||||| ||| | || ||||| |  |||||  | ||||| ||| | | |||| |||  || |  ||| | || ||| | || || ||||| |||| | | |||||  |     ||| ||  | | |     |  | |||| || || || || |  || ||| |||| ||| |  |  |  | |||||||| |||||||||| ||| |||||     | || ||||| ||||| ||  | ||  |||| ||||| ||    ||  |||||||||| || || ||||| || || || || | |||||| || || ||||  |||   |||||||| ||||||||  ||   ||||||   ||   |||  ||| ||| | | | ||   ||| ||  | ||||| || ||||||||||| |   | ||||||||||| || || || ||||| ||||||| |   ||  ||   ||| | ||||||||   |   | |   || || || || || ||||| | ||| |||   ||||||||||| || |||||  | ||||||| ||| || || || ||||   |  | ||||  || |||   || || ||  |||||||||| |   | |  || || |||||||||||| |  ||||||   | || |||||||| ||  || | ||||||| | ||||  |||| ||||||||||  || || || ||||||||   ||| ||| | || ||     |||| |  || ||||| || || ||  |||     | || || | | | ||     ||||  | ||||   |||||||||||||| ||||||||  ||| |||| ||||  | || ||||| ||||||||| ||||||| ||||||||||| ||||||||||||||||||| |||  || | |||||||| || || ||||||||  | || || ||| |  |  | ||  | || | |||| || | |   |   ||| ||     ||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||    | | ||||||  |||     ||   |||| || || ||| | ||| ||    | | ||  ||| | ||||||||   | |  ||   || || || ||||| ||     ||||||     | ||   | ||||||  |||  |  | ||||| ||||| ||| | ||  |||||||||||||||| || ||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>2.04194</Hsp_evalue>
+      <Hsp_query-from>762</Hsp_query-from>
+      <Hsp_query-to>774</Hsp_query-to>
+      <Hsp_hit-from>761</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>TTGCAAATATCCA</Hsp_qseq>
+      <Hsp_hseq>TTGCAAATATCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>7.12707</Hsp_evalue>
+      <Hsp_query-from>839</Hsp_query-from>
+      <Hsp_query-to>850</Hsp_query-to>
+      <Hsp_hit-from>1073</Hsp_hit-from>
+      <Hsp_hit-to>1084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>AAATGTTTGTTA</Hsp_qseq>
+      <Hsp_hseq>AAATGTTTGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|296144315|gb|GQ288792.1|</Hit_id>
+  <Hit_def>Human papillomavirus - 81 clone 17L major capsid protein L1 (L1) gene, complete cds</Hit_def>
+  <Hit_accession>GQ288792</Hit_accession>
+  <Hit_len>1599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>2.63964e-138</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>1484</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>1496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>989</Hsp_identity>
+      <Hsp_positive>989</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>1459</Hsp_align-len>
+      <Hsp_qseq>ACGTAAACGTTTACCATATTTTTTTTCAGATGTCTCTTTGGCTGCCTAGTGAGGCCACTGTCTACTTGCCTCCTGTCCCAGTATCTAAGGTTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAA-----ACCTAACAATAACAAAATATTAGTTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAATGCAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCAGTAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTACTG-CAAATTTAGCC-----AGTTCAAATTATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT---CTACAACCTCC-CCCAGGAGGCACACTAGAAGATACTTATAGGTTTGTA---ACCCAGGCAATTGCTTGTCAAAAACATACACCT---CCAGCACCTAAAGAAGATGATCCCCTTA---AAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTT</Hsp_qseq>
+      <Hsp_hseq>ACATAAACGTATTCACTATTCTTTTACAGATGGCTATGTGGCGGCCTAATGACGGCAAGGTATACCTGCCTCCCACACCTGTGTCTAAAGTTATCAGTACGGACGCCTATGTAACCCGCACCAACCTTTTTTATTATGGGGGCAGTTCCCGCCTTCTTATTGTAGGGCATCCATATTGTAC-ATTAACTATTGGTACCCAGGGAAAGCGTTCCACTA-TTCCCAAGGTGTCTGGGTATCAGTACCGGGTGTTTCGTGTGAAGCTCCCTGACCCTAATAAGTTTGCTTTACCTGATGGTACCTTATATAACCCAGACACCGAACGCATGGTATGGGCTTGCAGGGGCATTGAGGTAGGCCGCGGACAGCCTTTGGGCGTAGGTACTAGTGGTCACCCATTATATAATCGCTTGAATGATACAGAAAACACT---GCTTATTTGGCTGCTGCCAGTGAGGACAGTCGTGACAATATTTCAGTTGATTATAAGCAAACACAATTATTGATTATTGGTTGCAAGCCCCCCATTGGGGAGCACTGGGCCCGGGGTACCTTTTGTGCTAATGTTGCTCCAGCACAAAACGAATGCCCCCCCTTGGAGTTTAAAAATACAACCATTCAGGATGGGGACATGGTGGAAACTGGCTATGGGGCCATTGATTTTAAGGCCCTGCAGGAAAATAAATCCGAGGTGCCCTTGGATATTTGCAATACCACCTGTAAGTATCCAGATTATTTACAAATGGCTGCTGAGCCATATGGGGATTGCATGTTTTTTTGTCTACGTCGGGAGCAAATGTTTGCAAGGCACTTTTTTAATAGACATGGCACTATGGGCGAGGCCTTACCTGCAGACTTATATATGAAGGGTGCTGCAGGCAGTGACAGAATAAACCCCGGGAGTTATATTTATGCCCCTACACCTAGTGGGTCTATGGTATCCTCTGATTCCCAGCTGTTTAATAAGCCTTATTGGCTACAACGGGCACAGGGCCATAATAATGGCATTTGTTGGTTTAATGAAATGTTTGTTACGGTGGTGGATACTACCAGAAGCACCAATTTTACTATTTGCACAGCTACATCTGCTGCTG---CAGAATACAAGGCCTCTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGTGTGTTGCCACCTCCTTCCA----CCAGTTTAGATGACACATATCGCTTTTTACAGTCTCGGGCCATTACCTGTCAAAAGGGTGCTGCTGCCCCTGCGCCCAAAGAGGA-----CCCTTATGCCGACAT-GTCATTTTGGACAGTTGACCTTAAGGACAAGTTGTCTACTGATTTAGATCAGTTTCCTTTGGGTCGCAAGTTTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||| | |  |||| |||| |||||| || | |||| ||||| ||| | ||  || ||| |||||||    || || ||||| ||| | || ||||| |  |||||  | ||||| ||| | | |||| |||  || |  ||| | || |||   || || ||||| |||| | | |||||  |     ||| |   | | |     | || |||| || || || || |  || ||| |||| ||| |  |  |  | |||||||| |||||||||| ||| |||||     | || ||||| ||||| ||  | ||  |||| ||||| ||    ||  |||||||||| || || ||||| || || || || | |||||| || || ||||  |||   ||| |||| ||||||||  ||   ||||||   ||   |||  ||| ||| | | | ||   ||| ||  | ||||| || ||||||||||| |   | ||||||||||| || || || ||||| ||||||| |   ||  ||   ||| | ||||||||   |   | |   || || || || || ||||| | ||| |||   ||||||||||| || |||||  | ||||||| ||| || || || ||||   |  | ||||  || |||   || || ||  |||||||||| |   | |  || || |||||||||||| |  ||||||   | || |||||||| ||  || | ||||||| | ||||  |||| ||||||||||  || || || ||||||||   ||| ||| | || ||     |||| |  || ||||| || || ||  |||     | || || | | | ||     ||||  | ||||   |||||||||||||| ||||||||  |||||||| ||||  | || ||||| ||||||||| ||||||| ||||||||||| ||||||||||||||||||  |||  || | |||||||| || || ||||||||  | || || ||| |  |  | ||  | || | |||| || | |   |   ||| ||     ||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||    | | ||||||  |||     ||   |||| || || ||| | ||| ||    | | ||| ||| | ||||||||   | |  ||   || || || ||||| ||     ||||||     | ||   | ||||||  |||  |  | ||||| ||||| ||| | ||  |||||||||||||||| || ||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>2.04194</Hsp_evalue>
+      <Hsp_query-from>762</Hsp_query-from>
+      <Hsp_query-to>774</Hsp_query-to>
+      <Hsp_hit-from>761</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>TTGCAAATATCCA</Hsp_qseq>
+      <Hsp_hseq>TTGCAAATATCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>7.12707</Hsp_evalue>
+      <Hsp_query-from>839</Hsp_query-from>
+      <Hsp_query-to>850</Hsp_query-to>
+      <Hsp_hit-from>1073</Hsp_hit-from>
+      <Hsp_hit-to>1084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>AAATGTTTGTTA</Hsp_qseq>
+      <Hsp_hseq>AAATGTTTGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|296144311|gb|GQ288790.1|</Hit_id>
+  <Hit_def>Human papillomavirus - 81 clone 23L major capsid protein L1 (L1) gene, complete cds</Hit_def>
+  <Hit_accession>GQ288790</Hit_accession>
+  <Hit_len>1599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.752</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>7.08314e-133</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>1484</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>1496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>985</Hsp_identity>
+      <Hsp_positive>985</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>1459</Hsp_align-len>
+      <Hsp_qseq>ACGTAAACGTTTACCATATTTTTTTTCAGATGTCTCTTTGGCTGCCTAGTGAGGCCACTGTCTACTTGCCTCCTGTCCCAGTATCTAAGGTTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAA-----ACCTAACAATAACAAAATATTAGTTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAATGCAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCAGTAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTACTG-CAAATTTAGCC-----AGTTCAAATTATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT---CTACAACCTCC-CCCAGGAGGCACACTAGAAGATACTTATAGGTTTGTA---ACCCAGGCAATTGCTTGTCAAAAACATACACCT---CCAGCACCTAAAGAAGATGATCCCCTTA---AAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTT</Hsp_qseq>
+      <Hsp_hseq>ACATAAACGTATTCACTATTCTTTTACAGATGGCTATGTGGCGGCCTGGTGACGGCAGGGTATACCTGCCTCCCACACCTGTGTCTAAAGTTATCAGTACGGACGCCTATGTAACCCGCACCAACCTTTTTTATTATGGGGGCAGTTCCCGCCTTCTTACTGTAGGGCATCCATATTGTAC-ATTAACTATTGGTACCCAAGGAAAGCGTTCCACTA-TTCCCAAGGTGTCTGGGTATCAGTACCGGGTGTTTCGTGTGAAGCTCCCTGACCCTAATAAGTTTGCTTTACCTGATGGTACCTTATATAACCCAGACACCGAACGCATGGTATGGGCTTGCAGGGGCATTGAGGTAGGCCGCGGACAGCCTTTGGGCGTAGGTACTAGTGGTCACCCATTATATAATCGCTTGGATGATACAGAAAACACT---GCTTATTTGGCTGCTGCCAGTGAGGACAGTCGTGACAATATTTCAGTTGATTATAAGCAAACACAATTATTAATTATTGGTTGCAAGCCCCCCATTGGGGAGCACTGGGCCCGGGGTACCTTTTGTGCTAATGTTGCTCCAGCACAAAACGAATGCCCCCCCTTGGAGTTTAAAAATACAACCATTCAGGATGGGGACATGGTGGAAACTGGCTATGGGGCCATTGATTTTAAGGCCCTGCAAGAAAATAAATCAGAAGTGCCCTTGGATATTTGCAATACCACCTGTAAGTATCCAGATTATTTACAAATGGCTGCTGAGCCATATGGGGATTGCATGTTTTTTTGTCTACGTCGGGAGCAAATGTTTGCAAGGCACTTTTTTAATAGACATGGCACTATGGGCGAGGCCTTACCTGCAGACTTATATATGAAGGGTGCTGCAGGCAGTGACAGAATAAACCCCGGGAGTTATATTTATGCCCCTACACCTAGTGGGTCTATGGTATCCTCTGATTCCCAGCTGTTTAATAAGCCTTATTGGCTACAACGGGCACAGGGCCATAATAATGGCATTTGTTGGTTTAATGAAATGTTTGTTACAGTGGTGGATACTACCAGAAGCACCAATTTTACTATTTGCACAGCTACATCTGCTGCTG---CAGAATACAAGGCCTCTAACTTTAAGGAATTTTTGCGCCATACAGAGGAATATGAGGGGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAACTATGGCCTACTTACATAATAAGAACAAGGCACTGTTGGATGATTGGAATTTTGGTGTGTTGCCACCTCCTTCCA----CCAGTTTAGATGACACATATCGCTTTTTACAGTCTCGGGCCATTACCTGTCAAAAGGGTGCTGCTGCCCCTGCGCCCGAAGAGGA-----CCCTTATGCCGACATGC-CATTTTGGACAGTTGACCTTAAGGACAAGTTGTCTACTGATTTAGATCAGTTTCCTTTGAGTCGCAAGTTTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||| | |  |||| |||| |||||| || | |||| |||| |||| | ||  || ||| |||||||    || || ||||| ||| | || ||||| |  |||||  | ||||| ||| | | |||| |||  || |  ||| | || ||| | || || ||||| |||| | | |||||  |     ||| ||  | | |     | || |||| || || || || |  || ||| |||| ||| |  |  |  | |||||||| |||||||||| ||| |||||     | || ||||| ||||| ||  | ||  |||| ||||| ||    ||  |||||||||| || || ||||| || || || || | |||||| || || ||||  |||   |||||||| ||||||||  ||   ||||||   ||   |||  ||| ||| | | | ||   ||| ||  | ||||| || ||||||||||| |   | ||||||||||| || || || ||||| ||||||| |   ||  ||   ||| | ||||||||   |   | |   || || || || || ||||| | ||| |||   ||||||||||| || |||||  | ||||||| ||| || || || ||||   |  | || |  || |||   ||||| ||  |||||||||| |   | |  || || |||||||||||| |  ||||||   | || |||||||| ||  || | ||||||| | ||||  |||| ||||||||||  || || || ||||||||   ||| ||| | || ||     |||| |  || ||||| || || ||  |||     | || || | | | ||     ||||  | ||||   |||||||||||||| ||||||||  |||||||| ||||  | || ||||| ||||||||| ||||||| ||||||||||| ||||||||||||||||||  |||  || | |||||||| || || ||||||||  | || || ||| |  |  | ||  | || | |||| || | |   |   ||| ||     ||||||||||||| |   | || |||   |||||||||||    ||||||||||| ||| | || ||||||   |||||  ||||   |||| | ||| |||||  || |||     |  | ||||| || ||||||||||||    | | ||||||  |||     ||   |||| || || ||| | ||| ||    | | ||| ||| | ||||||||   | |  ||   || || ||  |||| ||     ||||||     | || | | ||||||  |||  |  | ||||| ||||| ||| | ||  ||||||||||||||||  | ||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>2.04194</Hsp_evalue>
+      <Hsp_query-from>762</Hsp_query-from>
+      <Hsp_query-to>774</Hsp_query-to>
+      <Hsp_hit-from>761</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>TTGCAAATATCCA</Hsp_qseq>
+      <Hsp_hseq>TTGCAAATATCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>7.12707</Hsp_evalue>
+      <Hsp_query-from>839</Hsp_query-from>
+      <Hsp_query-to>850</Hsp_query-to>
+      <Hsp_hit-from>1073</Hsp_hit-from>
+      <Hsp_hit-to>1084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>AAATGTTTGTTA</Hsp_qseq>
+      <Hsp_hseq>AAATGTTTGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|296144313|gb|GQ288791.1|</Hit_id>
+  <Hit_def>Human papillomavirus - 81 clone 35L major capsid protein L1 (L1) gene, complete cds</Hit_def>
+  <Hit_accession>GQ288791</Hit_accession>
+  <Hit_len>1599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.145</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>8.62903e-132</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>1484</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>1496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>985</Hsp_identity>
+      <Hsp_positive>985</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>1459</Hsp_align-len>
+      <Hsp_qseq>ACGTAAACGTTTACCATATTTTTTTTCAGATGTCTCTTTGGCTGCCTAGTGAGGCCACTGTCTACTTGCCTCCTGTCCCAGTATCTAAGGTTGTAAGCACGGATGAATATGTTGCACGCACAAACATATATTATCATGCAGGAACATCCAGACTACTTGCAGTTGGACATCCCTATTTTCCTATTAAAAAACC-TAACAATAACAAAATATTAG----TTCCTAAAGTATCAGGATTACAATACAGGGTATTTAGAATACATTTACCTGACCCCAATAAGTTTGGTTTTCCTGACACCTCATTTTATAATCCAGATACACAGCGGCTGGTTTGGGCCTGTGTAGGTGTTGAGGTAGGTCGTGGTCAGCCATTAGGTGTGGGCATTAGTGGCCATCCTTTATTAAATAAATTGGATGACACAGAAAATGCTAGTGCTTATGCAGCAAATGCAGGTGTGGATAATAGAGAATGTATATCTATGGATTACAAACAAACACAATTGTGTTTAATTGGTTGCAAACCACCTATAGGGGAACACTGGGGCAAAGGATCCCCATGTACCAATGTTGCAGTAAATCCAGGTGATTGTCCACCATTAGAGTTAATAAACACAGTTATTCAGGATGGTGATATGGTTCATACTGGCTTTGGTGCTATGGACTTTACTACATTACAGGCTAACAAAAGTGAAGTTCCACTGGATATTTGTACATCTATTTGCAAATATCCAGATTATATTAAAATGGTGTCAGAACCATATGGCGACAGCTTATTTTTTTATTTACGAAGGGAACAAATGTTTGTTAGACATTTATTTAATAGGGCTGGTACTGTTGGTGAAAATGTACCAGACGATTTATACATTAAAGGCTCTGGGTCTACTG-CAAATTTAGCC-----AGTTCAAATTATTTTCCTACACCTAGTGGTTCTATGGTTACCTCTGATGCCCAAATATTCAATAAACCTTATTGGTTACAACGAGCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT---CTACAACCTCC-CCCAGGAGGCACACTAGAAGATACTTATAGGTTTGTA---ACCCAGGCAATTGCTTGTCAAAAACATACACCT---CCAGCACCTAAAGAAGATGATCCCCTTA---AAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGCAAATTTTT</Hsp_qseq>
+      <Hsp_hseq>ACATAAACGTATTCACTATTCTTTTACAGATGGCTATGTGGCGGCCTGGTGACGGCAAGGTATACCTGCCTCCCACACCTGTGTCTAAAGTTATCAGTACGGACGCCTATGTAACCCGCACCAACCTTTTTTATTATGGGGGCAGTTCCCGCCTTCTTACTGTAGGGCATTCATATTGTAC-ATTAACTATTGGTAACCA-AGGAAAGCGTTCCACTATTCCCAAGGTGTCTGGGTATCAGTACCGGGTGTTTCGTGTGAAGCTCCCTGACCCTAATAAGTTTGCTTTACCTGATGGTACCTTATATAACCCAGACGCCGAACGCATGGTATGGGCTTGCAGGGGCATTGAGGTAGGCCGCGGACAGCCTTTGGGCGTAGGTACTAGTGGTCACCCATTATATAATCGCTTGGATGATACAGAAAACACT---GCTTATTTGGCTGCTGCCAGTGAGGACAGTCGTGACAATATTTCAGTTGATTATAAGCAAACCCATTTATTAATTATTGGTGGCAAGCCCCCCATTGGGGAGCACTGGGCCCGGGGTACCTTTTGTGCTAATGTTGCTCCAGCACAAAACGAATGCCCCCCCTTGGAGTTTAAAAATACAACCATTCAGGATGGGGACATGGTGGAAACTGGCTATGGGGCCATTGATTTTAAGGCCCTGCAGGAAAATAAATCAGAGGTGCCCTTGGATATTTGCAATACCACCTGTAAGTATCCAGATTATTTACAAATGGCTGCTGAGCCATATGGGGATTGCATGTTTTTTTGTCTACGTCGGGAGCAAATGTTTGCAAGGCACTTTTTTAATAGACATGGCACTATGGGCGAGGCCTTACCTGCAGACTTATATATGAAGGGTGCTGCAGGCAGTGACAGAATAAACCCCGGGAGTTATATTTATGCCCCTACACCTAGTGGGTCTATGGTATCCTCTGATTCCCAGCCGTTTAATAAGCCCTATTGGCTACAACGGGCACAGGGCCATAATAATGGCATTTGTTGGTTTAATGAAATGTTTGTTACAGTGGTGGATACTACCAGAAGCACCAATTTTACTATTTGCACAGCTACATCTGCTGCTG---CAGAATACAAGGCCTCTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGTGTGTTGCCACCTCCTTCCA----CCAGTTTAGATGACACATATCGCTTTTTACAGTCTCGGGCCATTACCTGTCAAAAGAGTGCTGCTGCCCCTGCGCCCAAAGAGGA-----CCCTTATGCCGACAT-GTCATTTTGGACAGTTGACCTTAAGGACAAGTTGTCTACTGATTTAGATCAGTTTCCTTTGGGTCGCAAGTTTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||| | |  |||| |||| |||||| || | |||| |||| |||| | ||  || ||| |||||||    || || ||||| ||| | || ||||| |  |||||  | ||||| ||| | | |||| |||  || |  ||| | || ||| | || || ||| | |||| | | |||||  |    |||| | |  |||   ||      |||| || || || || |  || ||| |||| ||| |  |  |  | |||||||| |||||||||| ||| |||||     | || ||||| |||||  |  | ||  |||| ||||| ||    ||  |||||||||| || || ||||| || || || || | |||||| || || ||||  |||   |||||||| ||||||||  ||   ||||||   ||   |||  ||| ||| | | | ||   ||| ||  | ||||| || ||||| || || |   | |||||| |||| || || || ||||| ||||||| |   ||  ||   ||| | ||||||||   |   | |   || || || || || ||||| | ||| |||   ||||||||||| || |||||  | ||||||| ||| || || || ||||   |  | ||||  || |||   || || ||  |||||||||| |   | |  || || |||||||||||| |  ||||||   | || |||||||| ||  || | ||||||| | ||||  |||| ||||||||||  || || || ||||||||   ||| ||| | || ||     |||| |  || ||||| || || ||  |||     | || || | | | ||     ||||  | ||||   |||||||||||||| ||||||||  |||||||| ||||    || ||||| || |||||| ||||||| ||||||||||| ||||||||||||||||||  |||  || | |||||||| || || ||||||||  | || || ||| |  |  | ||  | || | |||| || | |   |   ||| ||     ||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||    | | ||||||  |||     ||   |||| || || ||| | ||| ||    | | ||| ||| | ||||||||   | |  ||   || || || ||||| ||     ||||||     | ||   | ||||||  |||  |  | ||||| ||||| ||| | ||  |||||||||||||||| || ||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>2.04194</Hsp_evalue>
+      <Hsp_query-from>762</Hsp_query-from>
+      <Hsp_query-to>774</Hsp_query-to>
+      <Hsp_hit-from>761</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>TTGCAAATATCCA</Hsp_qseq>
+      <Hsp_hseq>TTGCAAATATCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>7.12707</Hsp_evalue>
+      <Hsp_query-from>839</Hsp_query-from>
+      <Hsp_query-to>850</Hsp_query-to>
+      <Hsp_hit-from>1073</Hsp_hit-from>
+      <Hsp_hit-to>1084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>AAATGTTTGTTA</Hsp_qseq>
+      <Hsp_hseq>AAATGTTTGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|151414931|gb|EF626590.1|</Hit_id>
+  <Hit_def>Human papillomavirus - 81 isolate Bsb-50 major capsid protein L1 gene, partial cds</Hit_def>
+  <Hit_accession>EF626590</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.966</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>2.03833e-38</Hsp_evalue>
+      <Hsp_query-from>1024</Hsp_query-from>
+      <Hsp_query-to>1475</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>465</Hsp_align-len>
+      <Hsp_qseq>GCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT---CTACAACCTCC-CCCAGGAGGCACACTAGAAGATACTTATAGGTTTGTA---ACCCAGGCAATTGCTTGTCAAAAACATACACCT---CCAGCACCTAAAGAAGATGATCCCCTTA---AAAAATACACTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACG</Hsp_qseq>
+      <Hsp_hseq>GCACAGGGTCATAATAATGGCATTTGTTGGTTTAATGAACTGTTTGTTACAGTGGTGGATACTACCAGAAGCACCAATTTTACTATTTGCACAGCTACATCTGCTGCTG---CAGAATACAAGGCCTCTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGTGTGTTGCCACCTCCTTCCA----CCAGTTTAGATGACACATATCGCTTTTTACAGTCTCGGGCCATTACCTGTCAAAAGGGTGCTGCTGCCCCTGCGCCCAAAGAGGA-----CCCTTATGCCGACAT-GTCATTTTGGACAGTTGACCTTAAGGACAAGTTGTCTACTGATTTAGATCAGTTTCCTTTGGGACG</Hsp_hseq>
+      <Hsp_midline>|||||||| || ||||||||||||||||||  |||  |||| |||||||| || || ||||||||  | || || ||| |  |  | ||  | || | |||| || | |   |   ||| ||     ||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||    | | ||||||  |||     ||   |||| || || ||| | ||| ||    | | ||| ||| | ||||||||   | |  ||   || || || ||||| ||     ||||||     | ||   | ||||||  |||  |  | ||||| ||||| ||| | ||  |||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|392495418|gb|JQ902135.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 isolate S23 L1 protein (L1) gene, partial cds</Hit_def>
+  <Hit_accession>JQ902135</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.342</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.28633e-34</Hsp_evalue>
+      <Hsp_query-from>1024</Hsp_query-from>
+      <Hsp_query-to>1476</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>314</Hsp_identity>
+      <Hsp_positive>314</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>466</Hsp_align-len>
+      <Hsp_qseq>GCACAGGGCCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGTCTA---CAACCTCCC-CCAGGAGGCACACTAGAAGATACTTATAGGTTTGTAA---CCCAGGCAATTGCTTGTCAAAAACATACACCT---CCAGCACCTAAAGAAGATGATCCCCTTAAAAAATACA---CTTTTTGGGAAGTAAATTTAAAGGAAAAGTTTTCTGCAGACCTAGATCAGTTTCCTTTAGGACGC</Hsp_qseq>
+      <Hsp_hseq>GCACAGGGTCATAATAATGGCATTTGTTGGTTTAATGAAATGTTTGTTACAGTAGTGGATACTACCAGAAGCACCAATTTTACTATTTGCACAGCTACATCTGCTGCTGCAGA---ATACAAGGCCTCTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGTGTGTTGCCACCTCCTTCCACCAGTT----TAGATGACACATATCGCTTTTTACAGTCTCGGGCCATTACCTGTCAAAAGGGTGCTGCTGCCCCTGCGCCCAAGGAGGA-----CCCTTATGCCG-ACATGTCATTTTGGACAGTTGACCTTAAGGACAAGTTGTCTACTGATTTAGATCAGTTTCCTTTGGGTCGC</Hsp_hseq>
+      <Hsp_midline>|||||||| || ||||||||||||||||||  |||  || | |||||||| || || ||||||||  | || || ||| |  |  | ||  | || | |||| || | | |     ||| ||     ||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || |||||||||||| |    | ||||||  |||  ||      |||| || || ||| | ||| ||    | | ||| ||| | ||||||||   | |  ||   || || || || || ||     ||||||      |||   | ||||||  |||  |  | ||||| ||||| ||| | ||  |||||||||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|432139336|gb|JX912949.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 isolate 106PEBR major capsid L1 protein (L1) gene, partial cds</Hit_def>
+  <Hit_accession>JX912949</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.325</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>6.66335e-32</Hsp_evalue>
+      <Hsp_query-from>1032</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>CCACAATAATGGCATTTGTTGGGGTAACCAACTATTTGTTACTGTTGTTGATACTACACGCAGTACAAATATGTCATTATGTGCTGCCATATCTACTTCAGAAACTACATATAAAAATACTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CCATAATAATGGCATTTGTTGGTTTAATGAAATGTTTGTTACAGTGGTGGATACTACCAGAAGCACCAATTTTACTATTTGCACAGCTACATCTGCTGCTG---CAGAATACAAGGCCTCTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||  |||  || | |||||||| || || ||||||||  | || || ||| |  |  | ||  | || | |||| || | |   |   ||| ||     ||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|384071616|emb|HE798612.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate G469/NC/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798612</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.882</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>7.60288e-25</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTCCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| | ||| || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|384071618|emb|HE798613.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate G424/AC/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798613</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.23283e-23</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|384071614|emb|HE798611.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate G1141/NC/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798611</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.23283e-23</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|384071606|emb|HE798607.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate G390/NC/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798607</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.23283e-23</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|384071604|emb|HE798606.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate G2762/AC/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798606</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.23283e-23</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|384071602|emb|HE798605.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate G161/AC/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798605</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.23283e-23</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|384071598|emb|HE798603.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate G2666/AC/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798603</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.23283e-23</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|384071600|emb|HE798604.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate G1494/NC/HPV81/KWT &gt;gi|384071612|emb|HE798610.1| Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate M1311/AC/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798604</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.23283e-23</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGATTTGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAATTATGGCCTACTTACATAATATGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||   |||||||||||||| ||||||||||| ||| | || ||||||   |||||  ||||  ||||| | ||| |||||  ||||||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|384071608|emb|HE798608.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate G394/NC/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798608</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.8312</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>1.05682e-16</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCATACAGAGGAATATGAGGGGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAACTATGGCCTACTTACATAATAAGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||   |||||||||||    ||||||||||| ||| | || ||||||   |||||  ||||   |||| | ||| |||||  || |||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|384071610|emb|HE798609.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 partial L1 gene for major capsid L1 protein, isolate 363-23L/HPV81/KWT</Hit_def>
+  <Hit_accession>HE798609</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.4937e-15</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACATGGGGAGGAATATGATTTACAGTTTATTTTTCAACTGTGCAAAATAACCTTAACTGCAGACGTTATGACATACATACATTCTATGAATTCCACTATTTTGGAGGACTGGAATTTTGGT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTTTGCGCCATACAGAGGAATATGAGGGGCAGTTTATTTTCCAATTATGTAAAATACAGTTAACACCAGAAACTATGGCCTACTTACATAATAAGAACAAGGCACTGTTGGATGATTGGAATTTTGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |   | || |||   |||||||||||    ||||||||||| ||| | || ||||||   |||||  ||||   |||| | ||| |||||  || |||     |  | ||||| || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|429535592|dbj|AB706267.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 L1 gene for L1 capsid protein, partial cds, isolate: HPV2_211_09, clone: cervical_Gp_ori_HPV2_211_16</Hit_def>
+  <Hit_accession>AB706267</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>2.04194</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1176</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACAT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|429535584|dbj|AB706263.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 L1 gene for L1 capsid protein, partial cds, isolate: HPV2_195_09, clone: cervical_Gp_ori_HPV2_195_2</Hit_def>
+  <Hit_accession>AB706263</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>2.04194</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1176</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACAT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|429535568|dbj|AB706255.1|</Hit_id>
+  <Hit_def>Human papillomavirus type 81 L1 gene for L1 capsid protein, partial cds, isolate: HPV2_045_09, clone: cervical_Gp_ori_HPV2_045_12</Hit_def>
+  <Hit_accession>AB706255</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.7301</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>2.04194</Hsp_evalue>
+      <Hsp_query-from>1151</Hsp_query-from>
+      <Hsp_query-to>1176</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CTAACTTTAAGGAGTACCTACGACAT</Hsp_qseq>
+      <Hsp_hseq>CTAACTTTAAGGAATTTCTGCGCCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |  || || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|296144273|gb|GQ288775.1|</Hit_id>
+  <Hit_def>Human papillomavirus - 81 clone 7D E7 protein (E7) gene, complete cds</Hit_def>
+  <Hit_accession>GQ288775</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.9267</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>7.12707</Hsp_evalue>
+      <Hsp_query-from>498</Hsp_query-from>
+      <Hsp_query-to>512</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>TGTGGATAATAGAGA</Hsp_qseq>
+      <Hsp_hseq>TGTGGATAATAGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>62</Statistics_db-num>
+      <Statistics_db-len>37212</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
+
+

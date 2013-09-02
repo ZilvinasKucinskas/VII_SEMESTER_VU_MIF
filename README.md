@@ -52,6 +52,6 @@ P.S.
 -----
 Content can be out of date. Please update and make a pull request.
 
-You can follow me on ->
+Please follow me on ->
 
     * https://twitter.com/TooHighToPlay

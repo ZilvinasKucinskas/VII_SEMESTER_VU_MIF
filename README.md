@@ -16,7 +16,7 @@ To download repository the following steps must be completed:
 
     [3] Navigate to wanted directory
 
-    [4] Run this command -> git@github.com:TooHighToPlay/VII_SEMESTER_VU_MIF.git
+    [4] Run this command -> git clone git@github.com:TooHighToPlay/VII_SEMESTER_VU_MIF.git
 
     * 2nd case:
 
